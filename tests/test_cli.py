@@ -37,7 +37,12 @@ def test_parse_y_inspect(fixtures_dir: Path, tmp_path: Path) -> None:
 
 
 def test_parse_sin_sal(fixtures_dir: Path, tmp_path: Path, monkeypatch) -> None:
+    from pydantic import SecretStr
+
+    from biomech_pipelines import cli as cli_module
+
     monkeypatch.delenv("BIOMECH_ANON_SALT", raising=False)
+    monkeypatch.setattr(cli_module.settings, "anon_salt", SecretStr(""))
     result = runner.invoke(
         app,
         [
