@@ -1,0 +1,3 @@
+paciente_id,fecha,protocolo,dispositivo,altura_salto_cm,tiempo_vuelo_ms,pico_fuerza_n,asimetria_pct
+DEMO-001,2026-10-24T14:30:00Z,salto_vertical,Biobit,34.2,512,1820,4.1
+DEMO-001,2026-10-24T14:34:00Z,salto_vertical,Biobit,35.1,519,1845,3.8

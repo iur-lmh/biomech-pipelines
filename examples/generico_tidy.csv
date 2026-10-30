@@ -1,0 +1,4 @@
+fecha,sujeto_id,protocolo,dispositivo,metrica,valor,unidad
+2026-10-18T16:00:00Z,DEMO-003,marcha,mDurance,cadencia_pasos_min,112,pasos/min
+2026-10-18T16:00:00Z,DEMO-003,marcha,mDurance,longitud_paso_m,1.28,m
+2026-10-18T16:00:00Z,DEMO-003,marcha,mDurance,velocidad_m_s,1.41,m/s

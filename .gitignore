@@ -1,0 +1,13 @@
+# Ejemplos de exportaciones para probar los adaptadores.
+datasets/
+/*.json
+/*.jsonl
+/*.parquet
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
