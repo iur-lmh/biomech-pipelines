@@ -12,7 +12,7 @@ license = { text = "MIT" }
 authors = [{ name = "Laboratorio de Movimiento Humano — IUR/UCASAL" }]
 keywords = ["biomechanics", "rehabilitation", "research", "c3d", "anonymization"]
 dependencies = [
-  "pandas>=2.2,<3.0",
+  "pandas>=2.2,<4.0",
   "numpy>=1.26,<3.0",
   "pydantic>=2.8,<3.0",
   "pydantic-settings>=2.4,<3.0",
